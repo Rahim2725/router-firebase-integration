@@ -1,0 +1,15 @@
+.header nav{
+    box-shadow: 10px 10px 10px whitesmoke;
+    padding: 10px ;
+    height: auto; 
+    
+}
+.header nav a {
+    margin-right: 20px;
+    font-size: 15px ;
+    text-decoration: none;
+    color: black;
+}
+.header nav a:hover{
+    color: orange;
+}
