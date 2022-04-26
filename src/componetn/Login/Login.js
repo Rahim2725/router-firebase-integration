@@ -1,6 +1,9 @@
 import React from 'react';
+import useFirebase from '../../hooks/useFirebase';
+import './Login.css'
 
 const Login = () => {
+    const {singInWithGoogle } = useFirebase();
     return (
         <div>
             <h1>Plase login </h1>
@@ -9,6 +12,8 @@ const Login = () => {
             <input type="password" name="password" id="" placeholder='Password' />
             <br />
             <input type="button" value="Login" />
+            <br />
+            <input onClick={singInWithGoogle}  type="button" value="Google Sing in" />
         </div>
     );
 };
