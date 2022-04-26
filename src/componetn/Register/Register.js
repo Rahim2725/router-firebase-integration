@@ -11,6 +11,8 @@ const Register = () => {
                 <input type="email" name="email" id="" placeholder='Email' />
                 <br />
                 <input type="password" placeholder='Password' />
+                <br />
+                <input type="button" value="Register" />
             </form>
         </div>
     );
